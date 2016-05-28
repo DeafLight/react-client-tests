@@ -1,0 +1,26 @@
+{
+  "name": "react-client-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-dist": "^0.2.2",
+    "jspm": "^0.16.35",
+    "typings": "^1.0.4",
+    "uglifyjs": "^2.4.10"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^15.1.0",
+      "react-dom": "npm:react-dom@^15.1.0",
+      "whatwg-fetch": "npm:whatwg-fetch@^1.0.0"
+    },
+    "devDependencies": {}
+  }
+}
